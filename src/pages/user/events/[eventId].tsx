@@ -204,7 +204,7 @@ export default function EventDetail({
       }
     }
 
-    const handleCheckout = (e:React.MouseEvent<HTMLButtonElement, MouseEvent>) =>{
+    const handleCheckout = (e:any) =>{
       getUserDetails()
       if(orderSummaryMerchandises.length === 0 && !e.target.id){
         setShowConfirmationMerchandise(true)
