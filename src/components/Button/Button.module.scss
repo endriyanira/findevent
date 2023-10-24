@@ -1,0 +1,43 @@
+.buttonFilterWrapper {
+  @apply flex w-fit;
+}
+
+.buttonDefault {
+  @apply flex w-full;
+}
+
+.button {
+  @apply px-[30px] w-full md:px-[15px] md:py-[15px] rounded-[50px] text-center text-[14px] md:text-[16px] shadow-lg;
+}
+
+.buttonPrimary {
+  @apply bg-primaryBlue text-white px-[15px] py-[15px];
+}
+
+.buttonSecondary {
+  @apply bg-white border-[1px] border-secondaryText text-secondaryText px-[15px] py-[15px];
+}
+
+.buttonSmall {
+  @apply px-[6px] py-[8px] text-[8px] font-thin md:text-[16px] md:px-[12px];
+}
+
+.button:hover {
+  @apply shadow-xl;
+}
+
+.buttonPrimary:hover {
+  @apply bg-primaryButtonHover;
+}
+
+.buttonSecondary:hover {
+  @apply bg-slate-100;
+}
+
+.buttonDisabled {
+  @apply bg-lightGrey text-secondaryText shadow-none;
+}
+
+.buttonDisabled:hover {
+  @apply shadow-none bg-lightGrey;
+}

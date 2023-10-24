@@ -1,0 +1,23 @@
+.SignUpWrapper {
+  @apply flex flex-col justify-center items-center bg-sparkleBackground h-[100vh];
+}
+
+.SignUpContent {
+  @apply w-[300px] h-[550px] md:w-[484px] md:h-[650px] bg-white justify-center items-center rounded-[20px] p-6 md:p-11;
+}
+
+.SignUpHeading {
+  @apply flex-1 justify-center items-center text-left text-[32px] md:text-[40px] font-bold mb-2;
+}
+
+.SignUpText {
+  @apply text-[12px] md:text-[18px] font-normal mb-4 md:mb-5;
+}
+
+.SignUpFormWrapper {
+  @apply flex flex-col gap-4 justify-center items-center w-full;
+}
+
+.SignUpMoreInfo {
+  @apply text-[12px] py-3 md:text-[16px];
+}

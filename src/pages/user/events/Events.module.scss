@@ -1,0 +1,10 @@
+.input {
+  @apply bg-lightBlue py-1 pl-[16px] rounded-[20px] text-sm justify-center items-center md:w-[300px] md:pl-[24px] md:py-3 border-primaryBlue border-[2px];
+}
+.input::placeholder {
+  @apply text-[10px] md:text-[16px];
+}
+
+.searchIcon {
+  @apply text-primaryBlue md:text-xl;
+}

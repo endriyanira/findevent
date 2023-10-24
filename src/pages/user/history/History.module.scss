@@ -1,0 +1,11 @@
+.HistoryPageWrapper{
+    @apply flex flex-col pt-[100px] px-2 md:w-[45vw]
+}
+
+.HistoryTitleText{
+    @apply font-light  pb-4 text-center text-[20px]
+}
+
+.TransactionsWrapper{
+    @apply w-full h-full flex flex-col 
+}

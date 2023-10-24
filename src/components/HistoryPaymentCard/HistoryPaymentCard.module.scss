@@ -1,0 +1,31 @@
+.HistoryCard{
+    @apply  w-full border-[1px] shadow-sm mb-2 mt-2
+}
+
+.TypeAndTime{
+    @apply flex flex-row justify-between items-center w-full
+}
+
+.HistoryType{
+    @apply bg-lightBlue p-2 w-[100px] m-2 rounded-lg
+}
+
+.HistoryTypeText{
+    @apply text-[12px] font-bold text-darkBlue text-center
+}
+
+.HistoryDateTime{
+    @apply text-[12px] px-2
+}
+
+.HistoryInfo{
+    @apply flex flex-col p-2
+}
+
+.HistoryInfoAmount{
+    @apply text-[16px] font-bold
+}
+
+.HistoryInfoDescription{
+    @apply text-[12px]
+}

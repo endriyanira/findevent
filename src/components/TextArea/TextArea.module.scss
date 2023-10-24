@@ -1,0 +1,19 @@
+.textAreaWrapper {
+  @apply justify-start w-full;
+}
+
+.textAreaLabelWrapper {
+  @apply flex-1 flex flex-col justify-start items-start relative w-full;
+}
+
+.textAreaLabelSpan {
+  @apply flex-1 text-[14px] md:text-[16px] font-bold mb-[9px];
+}
+
+.textAreaForm {
+  @apply flex-1 rounded-[5px] py-[11px] bg-inputBackground pl-[21px] mb-[6px] w-full focus:outline-none resize-none;
+}
+
+.textAreaForm::placeholder {
+  @apply text-[14px];
+}

@@ -1,0 +1,7 @@
+.tabBarItem{
+    @apply text-[12px] border-secondaryText/50 border-b-2 p-2 font-bold md:text-[16px] md:border-b-4 md:px-[66px] md:py-[16px] w-full md:w-fit
+}
+
+.active {
+    @apply border-primaryBlue 
+}

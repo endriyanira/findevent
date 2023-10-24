@@ -1,0 +1,1051 @@
+{
+  "users": [
+    {
+      "email": "endriyanira@gmail.com",
+      "password": "$2a$10$kMK6mNgJ9Fnkc.7ax8MDn.RxXZ8iSm8TE5TZ3sl3jcZeWttKFC4y.",
+      "id": "user_123",
+      "balance": 1215000,
+      "firstName": "Endriyani",
+      "lastName": "Rahayu",
+      "membership":"Basic"
+    },
+    {
+      "email": "xeana@gmail.com",
+      "password": "$2a$10$kSn4s8afaT/4nX163mnTzuPTpxI0Rj7lFZ1GmodGqI.Zua25oyAWC",
+      "balance": 10000,
+      "firstName": "Xeana",
+      "lastName": "Rahayu",
+      "id": "admin_123"
+    }
+  ],
+  "payments": [
+    {
+      "amount": 5000000,
+      "description": "top up",
+      "type": "credit",
+      "userId": "user_123",
+      "createdAt": "2023-10-23T02:42:52.814Z",
+      "id": 1
+    },
+    {
+      "userId": "user_123",
+      "type": "debit",
+      "description": "Buy Event, name: Beauty and the Beast – Live on Stage",
+      "amount": 3700000,
+      "createdAt": "2023-10-23T02:43:11.842Z",
+      "id": 2
+    },
+    {
+      "amount": 3000000,
+      "description": "top up",
+      "type": "credit",
+      "userId": "user_123",
+      "createdAt": "2023-10-23T03:46:39.477Z",
+      "id": 3
+    },
+    {
+      "userId": "user_123",
+      "type": "debit",
+      "description": "Buy Event, name: Beauty and the Beast – Live on Stage",
+      "amount": 3250000,
+      "createdAt": "2023-10-23T03:46:47.671Z",
+      "id": 4
+    },
+    {
+      "amount": 8000000,
+      "description": "top up",
+      "type": "credit",
+      "userId": "user_123",
+      "createdAt": "2023-10-23T09:23:03.643Z",
+      "id": 5
+    },
+    {
+      "userId": "user_123",
+      "type": "debit",
+      "description": "Buy Event, name: Beauty and the Beast – Live on Stage",
+      "amount": 7050000,
+      "createdAt": "2023-10-23T09:23:09.860Z",
+      "id": 6
+    },
+    {
+      "amount": 300000,
+      "description": "top up",
+      "type": "credit",
+      "userId": "user_123",
+      "createdAt": "2023-10-23T13:38:51.679Z",
+      "id": 7
+    },
+    {
+      "amount": 800000,
+      "description": "top up",
+      "type": "credit",
+      "userId": "user_123",
+      "createdAt": "2023-10-23T13:39:33.467Z",
+      "id": 8
+    },
+    {
+      "userId": "user_123",
+      "type": "debit",
+      "description": "Buy Event, name: Beauty and the Beast – Live on Stage",
+      "amount": 2900000,
+      "createdAt": "2023-10-23T13:39:38.968Z",
+      "id": 9
+    },
+    {
+      "amount": 5000000,
+      "description": "top up",
+      "type": "credit",
+      "userId": "user_123",
+      "createdAt": "2023-10-23T14:53:23.324Z",
+      "id": 10
+    },
+    {
+      "amount": 3000000,
+      "description": "top up",
+      "type": "credit",
+      "userId": "user_123",
+      "createdAt": "2023-10-23T14:53:36.935Z",
+      "id": 11
+    },
+    {
+      "userId": "user_123",
+      "type": "debit",
+      "description": "Buy Event, name: Beauty and the Beast – Live on Stage",
+      "amount": 7400000,
+      "createdAt": "2023-10-23T14:53:56.865Z",
+      "id": 12
+    },
+    {
+      "amount": 3000000,
+      "description": "top up",
+      "type": "credit",
+      "userId": "user_123",
+      "createdAt": "2023-10-23T15:05:37.864Z",
+      "id": 13
+    },
+    {
+      "userId": "user_123",
+      "type": "debit",
+      "description": "Buy Event, name: Beauty and the Beast – Live on Stage",
+      "amount": 3900000,
+      "createdAt": "2023-10-23T15:05:43.385Z",
+      "id": 14
+    },
+    {
+      "amount": 3000000,
+      "description": "top up",
+      "type": "credit",
+      "userId": "user_123",
+      "createdAt": "2023-10-23T15:07:06.332Z",
+      "id": 15
+    },
+    {
+      "userId": "user_123",
+      "type": "debit",
+      "description": "Buy Event, name: Beauty and the Beast – Live on Stage",
+      "amount": 2750000,
+      "createdAt": "2023-10-23T15:07:24.601Z",
+      "id": 16
+    },
+    {
+      "amount": 3000000,
+      "description": "top up",
+      "type": "credit",
+      "userId": "user_123",
+      "createdAt": "2023-10-23T15:08:44.476Z",
+      "id": 17
+    },
+    {
+      "amount": 100000,
+      "description": "top up",
+      "type": "credit",
+      "userId": "user_123",
+      "createdAt": "2023-10-23T15:09:01.805Z",
+      "id": 18
+    },
+    {
+      "userId": "user_123",
+      "type": "debit",
+      "description": "Buy Event, name: Beauty and the Beast – Live on Stage",
+      "amount": 3400000,
+      "createdAt": "2023-10-23T15:09:08.773Z",
+      "id": 19
+    },
+    {
+      "amount": 120000,
+      "description": "top up",
+      "type": "credit",
+      "userId": "user_123",
+      "createdAt": "2023-10-23T15:29:56.587Z",
+      "id": 20
+    },
+    {
+      "amount": 120000,
+      "description": "top up",
+      "type": "credit",
+      "userId": "user_123",
+      "createdAt": "2023-10-23T15:30:49.836Z",
+      "id": 21
+    },
+    {
+      "amount": 120000,
+      "description": "top up",
+      "type": "credit",
+      "userId": "user_123",
+      "createdAt": "2023-10-23T15:31:06.193Z",
+      "id": 22
+    },
+    {
+      "amount": 120000,
+      "description": "top up",
+      "type": "credit",
+      "userId": "user_123",
+      "createdAt": "2023-10-23T15:31:31.174Z",
+      "id": 23
+    },
+    {
+      "amount": 120000,
+      "description": "top up",
+      "type": "credit",
+      "userId": "user_123",
+      "createdAt": "2023-10-23T15:31:35.394Z",
+      "id": 24
+    },
+    {
+      "amount": 5000000,
+      "description": "top up",
+      "type": "credit",
+      "userId": "user_123",
+      "createdAt": "2023-10-23T15:32:43.637Z",
+      "id": 25
+    },
+    {
+      "userId": "user_123",
+      "type": "debit",
+      "description": "Buy Event, name: Beauty and the Beast – Live on Stage",
+      "amount": 4700000,
+      "createdAt": "2023-10-23T15:32:49.550Z",
+      "id": 26
+    },
+    {
+      "amount": 8000000,
+      "description": "top up",
+      "type": "credit",
+      "userId": "user_123",
+      "createdAt": "2023-10-23T15:34:59.705Z",
+      "id": 27
+    },
+    {
+      "userId": "user_123",
+      "type": "debit",
+      "description": "Buy Event, name: Beauty and the Beast – Live on Stage",
+      "amount": 7600000,
+      "createdAt": "2023-10-23T15:35:05.910Z",
+      "id": 28
+    },
+    {
+      "amount": 17000000,
+      "description": "top up",
+      "type": "credit",
+      "userId": "user_123",
+      "createdAt": "2023-10-23T15:40:06.785Z",
+      "id": 29
+    },
+    {
+      "userId": "user_123",
+      "type": "debit",
+      "description": "Buy Event, name: Beauty and the Beast – Live on Stage",
+      "amount": 16000000,
+      "createdAt": "2023-10-23T15:40:12.015Z",
+      "id": 30
+    },
+    {
+      "userId": "user_123",
+      "type": "debit",
+      "description": "Buy Event, name: Disney Festival of Fantasy Parade",
+      "amount": 440000,
+      "createdAt": "2023-10-23T17:09:29.664Z",
+      "id": 31
+    },
+    {
+      "userId": "user_123",
+      "type": "debit",
+      "description": "Buy Event, name: For the First Time in Forever: A Frozen Sing-Along Celebration",
+      "amount": 120000,
+      "createdAt": "2023-10-23T17:51:43.145Z",
+      "id": 32
+    },
+    {
+      "userId": "user_123",
+      "type": "debit",
+      "description": "Buy Event, name: Donald's Dino-Bash!",
+      "amount": 360000,
+      "createdAt": "2023-10-24T02:58:40.238Z",
+      "id": 33
+    },
+    {
+      "userId": "user_123",
+      "type": "debit",
+      "description": "Buy Event, name: For the First Time in Forever: A Frozen Sing-Along Celebration",
+      "amount": 170000,
+      "createdAt": "2023-10-24T03:24:05.879Z",
+      "id": 34
+    },
+    {
+      "amount": 300000,
+      "description": "top up",
+      "type": "credit",
+      "userId": "user_123",
+      "createdAt": "2023-10-24T03:53:10.563Z",
+      "id": 35
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "thumbnail": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/parks-and-tickets/entertainment/hollywood-studios/beauty-and-the-beast-live-on-stage/beauty-and-the-beast-live-on-stage-06.jpg?1689268713538",
+      "category": "Shows & Fireworks",
+      "location": "Disney's Hollywood Studios",
+      "title": "Beauty and the Beast – Live on Stage",
+      "description": "Relive the romance and magic of a tale as old as time in a lavish Broadway-style musical version of Beauty and the Beast.",
+      "date": "Sunday, October 15, 2023",
+      "duration": 30,
+      "price": 1450000,
+      "startTime": "11:00"
+    },
+    {
+      "title": "Donald's Dino-Bash!",
+      "description": "Join Donald Duck and friends for a prehistoric party over 200 million years in the making",
+      "date": "2023-10-26",
+      "startTime": "10:58",
+      "duration": 120,
+      "location": "Disney's Animal Kingdom Theme Park",
+      "category": "Shows & Fireworks",
+      "price": 120000,
+      "thumbnail": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698033574/gvlbcxthklfr1zofmj96.avif",
+      "id": 3
+    },
+    {
+      "title": "Disney Festival of Fantasy Parade",
+      "description": "Celebrate the spirit of Disney as Magic Kingdom park comes alive with music and dance during a tribute to the tales of Fantasyland.",
+      "date": "2023-10-25",
+      "startTime": "13:20",
+      "duration": 120,
+      "location": "Walt Disney World® Resort locations",
+      "category": "Parades",
+      "price": 120000,
+      "thumbnail": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698038568/kxvmiarxv5emydqqpjf7.avif",
+      "id": 4
+    },
+    {
+      "title": "Mickey's Once Upon a Christmastime Parade at Mickey's Very Merry Christmas Party",
+      "description": "Celebrate the season with Disney friends as they stroll by in a festive procession featuring jolly St. Nick on his sleigh.",
+      "date": "2023-10-26",
+      "startTime": "14:27",
+      "duration": 90,
+      "location": "Walt Disney World® Resort locations",
+      "category": "Characters Experiences",
+      "price": 400000,
+      "thumbnail": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698038902/vtbn2v8qpk8s7sa6rrb8.avif",
+      "id": 5
+    },
+    {
+      "title": "Mickey's \"Boo-to-You\" Halloween Parade at Mickey's Not-So-Scary Halloween Party",
+      "description": "Get into the spirit of Halloween when you attend this frightfully fun parade.",
+      "date": "2023-10-26",
+      "startTime": "15:34",
+      "duration": 180,
+      "location": " Walt Disney World® Resort locations",
+      "category": 0,
+      "price": 300000,
+      "thumbnail": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698039338/yb26kuaki6vcwkjfwcj1.avif",
+      "id": 6
+    },
+    {
+      "title": "Hocus Pocus Village",
+      "description": "Experience chills and thrills while encountering Disney villains during a wickedly fun celebration at Mickey’s Not-So-Scary Halloween Party!",
+      "date": "2023-10-26",
+      "startTime": "12:58",
+      "duration": 300,
+      "location": " Magic Kingdom Park",
+      "category": "Shows & Fireworks",
+      "price": 120000,
+      "thumbnail": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698040681/q39jp5umd56cwxp3opue.avif",
+      "id": 7
+    },
+    {
+      "title": "For the First Time in Forever: A Frozen Sing-Along Celebration",
+      "description": "You’ll melt for this heartwarming celebration of Frozen with a flurry of stories, songs and special guests.",
+      "date": "2023-10-28",
+      "startTime": "00:16",
+      "duration": 59,
+      "location": "Disney's Hollywood Studios",
+      "category": "Characters Experiences",
+      "price": 120000,
+      "thumbnail": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698081821/mtan5jdyn3n6b7czym54.avif",
+      "id": 8
+    },
+    {
+      "title": "Mickey's Magical Friendship Faire",
+      "description": "Watch as Mickey and friends take to the stage in front of Cinderella Castle for a musical extravaganza.\n",
+      "date": "2023-10-24",
+      "startTime": "10:34",
+      "duration": 180,
+      "location": "Magic Kingdom Park",
+      "category": 0,
+      "price": 300000,
+      "thumbnail": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698118292/rs7mdthcyqxa2drcsng2.avif",
+      "id": 9
+    }
+  ],
+  "eventCategories": [
+    {
+      "id": 1,
+      "name": "All",
+      "value": ""
+    },
+    {
+      "id": 2,
+      "name": "Thrill Rides",
+      "value": "Thrill Rides"
+    },
+    {
+      "id": 3,
+      "name": "Shows & Fireworks",
+      "value": "Shows & Fireworks"
+    },
+    {
+      "id": 4,
+      "name": "Characters Experiences",
+      "value": "Characters Experiences"
+    },
+    {
+      "id": 5,
+      "name": "Parades",
+      "value": "Parades"
+    }
+  ],
+  "userEvent": [
+    {
+      "id": 1,
+      "userId": "user_123",
+      "eventId": 1,
+      "event": {
+        "id": 1,
+        "thumbnail": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/parks-and-tickets/entertainment/hollywood-studios/beauty-and-the-beast-live-on-stage/beauty-and-the-beast-live-on-stage-06.jpg?1689268713538",
+        "category": "Shows & Fireworks",
+        "location": "Disney's Hollywood Studios",
+        "title": "Beauty and the Beast – Live on Stage",
+        "description": "Relive the romance and magic of a tale as old as time in a lavish Broadway-style musical version of Beauty and the Beast.",
+        "date": "Sunday, October 15, 2023",
+        "duration": 30,
+        "price": 1450000,
+        "startTime": "11:00"
+      },
+      "merchandise": [
+        {
+          "totalPrice": 500000,
+          "totalQty": 1,
+          "merch": {
+            "id": 1,
+            "eventId": 1,
+            "name": "Belle Costume for Kids – Beauty and the Beast",
+            "price": 500000,
+            "maxStock": 10,
+            "availableStock": 8,
+            "image": "https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841041409042?fmt=webp&qlt=70&wid=1680&hei=1680"
+          }
+        }
+      ],
+      "packages": [
+        {
+          "totalPrice": 2900000,
+          "totalQty": 2,
+          "ticket": {
+            "id": 1,
+            "eventId": 1,
+            "name": "REGULER (STANDING)",
+            "price": 1450000,
+            "maxQty": 35,
+            "availableTicket": 16
+          }
+        },
+        {
+          "totalPrice": 6750000,
+          "totalQty": 3,
+          "ticket": {
+            "id": 2,
+            "eventId": 1,
+            "name": "VIP (SEATING)",
+            "price": 2250000,
+            "maxQty": 75,
+            "availableTicket": 42
+          }
+        },
+        {
+          "totalPrice": 5850000,
+          "totalQty": 3,
+          "ticket": {
+            "id": 3,
+            "eventId": 1,
+            "name": "REGULAR B (STANDING)",
+            "price": 1950000,
+            "maxQty": 50,
+            "availableTicket": 43
+          }
+        }
+      ]
+    },
+    {
+      "userId": "user_123",
+      "eventId": 4,
+      "event": {
+        "title": "Disney Festival of Fantasy Parade",
+        "description": "Celebrate the spirit of Disney as Magic Kingdom park comes alive with music and dance during a tribute to the tales of Fantasyland.",
+        "date": "2023-10-25",
+        "startTime": "13:20",
+        "duration": 120,
+        "location": "Walt Disney World® Resort locations",
+        "category": "Parades",
+        "price": 120000,
+        "thumbnail": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698038568/kxvmiarxv5emydqqpjf7.avif",
+        "id": 4
+      },
+      "merchandise": [
+        {
+          "totalPrice": 200000,
+          "totalQty": 1,
+          "merch": {
+            "eventId": 4,
+            "name": "Mickey Mouse and Friends Parade T-Shirt for Adults – Disneyland 2023",
+            "price": 200000,
+            "maxStock": 10,
+            "availableStock": 9,
+            "image": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698038571/cqnusnb2oes1qbvgfcrr.webp",
+            "id": 5
+          }
+        }
+      ],
+      "packages": [
+        {
+          "totalPrice": 240000,
+          "totalQty": 2,
+          "ticket": {
+            "eventId": 4,
+            "name": "REGULER",
+            "price": 120000,
+            "maxQty": 100,
+            "availableTicket": 98,
+            "id": 5
+          }
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userId": "user_123",
+      "eventId": 8,
+      "event": {
+        "title": "For the First Time in Forever: A Frozen Sing-Along Celebration",
+        "description": "You’ll melt for this heartwarming celebration of Frozen with a flurry of stories, songs and special guests.",
+        "date": "2023-10-28",
+        "startTime": "00:16",
+        "duration": 59,
+        "location": "Disney's Hollywood Studios",
+        "category": "Characters Experiences",
+        "price": 120000,
+        "thumbnail": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698081821/mtan5jdyn3n6b7czym54.avif",
+        "id": 8
+      },
+      "merchandise": [],
+      "packages": [
+        {
+          "totalPrice": 120000,
+          "totalQty": 1,
+          "ticket": {
+            "eventId": 8,
+            "name": "REGULER (DUDUK)",
+            "price": 120000,
+            "maxQty": 100,
+            "availableTicket": 99,
+            "id": 9
+          }
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userId": "user_123",
+      "eventId": 3,
+      "event": {
+        "title": "Donald's Dino-Bash!",
+        "description": "Join Donald Duck and friends for a prehistoric party over 200 million years in the making",
+        "date": "2023-10-26",
+        "startTime": "10:58",
+        "duration": 120,
+        "location": "Disney's Animal Kingdom Theme Park",
+        "category": "Shows & Fireworks",
+        "price": 120000,
+        "thumbnail": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698033574/gvlbcxthklfr1zofmj96.avif",
+        "id": 3
+      },
+      "merchandise": [
+        {
+          "totalPrice": 120000,
+          "totalQty": 1,
+          "merch": {
+            "eventId": 3,
+            "name": "Donald Duck Glass",
+            "price": 120000,
+            "maxStock": 10,
+            "availableStock": 9,
+            "image": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698033575/px3l3qjhisg9jdti4qdt.webp",
+            "id": 3
+          }
+        },
+        {
+          "totalPrice": 120000,
+          "totalQty": 1,
+          "merch": {
+            "eventId": 3,
+            "name": "Daisy Duck Glass",
+            "price": 120000,
+            "maxStock": 10,
+            "availableStock": 9,
+            "image": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698033576/eo0oe6i3yldwk36d0yob.webp",
+            "id": 4
+          }
+        }
+      ],
+      "packages": [
+        {
+          "totalPrice": 120000,
+          "totalQty": 1,
+          "ticket": {
+            "eventId": 3,
+            "name": "REGULER (DUDUK)",
+            "price": 120000,
+            "maxQty": 100,
+            "availableTicket": 99,
+            "id": 4
+          }
+        }
+      ],
+      "id": 4
+    },
+    {
+      "userId": "user_123",
+      "eventId": 8,
+      "event": {
+        "title": "For the First Time in Forever: A Frozen Sing-Along Celebration",
+        "description": "You’ll melt for this heartwarming celebration of Frozen with a flurry of stories, songs and special guests.",
+        "date": "2023-10-28",
+        "startTime": "00:16",
+        "duration": 59,
+        "location": "Disney's Hollywood Studios",
+        "category": "Characters Experiences",
+        "price": 120000,
+        "thumbnail": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698081821/mtan5jdyn3n6b7czym54.avif",
+        "id": 8
+      },
+      "merchandise": [
+        {
+          "totalPrice": 50000,
+          "totalQty": 1,
+          "merch": {
+            "eventId": 8,
+            "name": "Elsa Hair Play Doll – Frozen – 11 1/2''",
+            "price": 50000,
+            "maxStock": 100,
+            "availableStock": 99,
+            "image": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698081823/mvcrcgzhpy6xv0r5opat.webp",
+            "id": 7
+          }
+        }
+      ],
+      "packages": [
+        {
+          "totalPrice": 120000,
+          "totalQty": 1,
+          "ticket": {
+            "eventId": 8,
+            "name": "REGULER (DUDUK)",
+            "price": 120000,
+            "maxQty": 100,
+            "availableTicket": 98,
+            "id": 9
+          }
+        }
+      ],
+      "id": 5
+    }
+  ],
+  "userEventPackages": [
+    {
+      "userEventId": 1,
+      "packageId": 1,
+      "quantity": 2,
+      "name": "REGULER (STANDING)",
+      "id": 1
+    },
+    {
+      "userEventId": 1,
+      "packageId": 2,
+      "quantity": 3,
+      "name": "VIP (SEATING)",
+      "id": 2
+    },
+    {
+      "userEventId": 1,
+      "packageId": 3,
+      "quantity": 3,
+      "name": "REGULAR B (STANDING)",
+      "id": 3
+    },
+    {
+      "userEventId": 4,
+      "packageId": 5,
+      "quantity": 2,
+      "name": "REGULER",
+      "id": 4
+    },
+    {
+      "userEventId": 8,
+      "packageId": 9,
+      "quantity": 1,
+      "name": "REGULER (DUDUK)",
+      "id": 5
+    },
+    {
+      "userEventId": 3,
+      "packageId": 4,
+      "quantity": 1,
+      "name": "REGULER (DUDUK)",
+      "id": 6
+    },
+    {
+      "userEventId": 8,
+      "packageId": 9,
+      "quantity": 1,
+      "name": "REGULER (DUDUK)",
+      "id": 7
+    }
+  ],
+  "userEventMerchandise": [
+    {
+      "userEventId": 1,
+      "merchandiseId": 1,
+      "quantity": 1,
+      "name": "Belle Costume for Kids – Beauty and the Beast",
+      "id": 1
+    },
+    {
+      "userEventId": 4,
+      "merchandiseId": 5,
+      "quantity": 1,
+      "name": "Mickey Mouse and Friends Parade T-Shirt for Adults – Disneyland 2023",
+      "id": 2
+    },
+    {
+      "userEventId": 3,
+      "merchandiseId": 3,
+      "quantity": 1,
+      "name": "Donald Duck Glass",
+      "id": 3
+    },
+    {
+      "userEventId": 3,
+      "merchandiseId": 4,
+      "quantity": 1,
+      "name": "Daisy Duck Glass",
+      "id": 4
+    },
+    {
+      "userEventId": 8,
+      "merchandiseId": 7,
+      "quantity": 1,
+      "name": "Elsa Hair Play Doll – Frozen – 11 1/2''",
+      "id": 5
+    }
+  ],
+  "userEventBookmarked": [
+    {
+      "userId": 0,
+      "eventId": 1,
+      "id": 1
+    },
+    {
+      "userId": 0,
+      "eventId": 1,
+      "id": 2
+    },
+    {
+      "userId": "user_123",
+      "eventId": 2,
+      "id": 3
+    },
+    {
+      "userId": 0,
+      "eventId": 1,
+      "id": 4
+    }
+  ],
+  "merchandises": [
+    {
+      "id": 1,
+      "eventId": 1,
+      "name": "Belle Costume for Kids – Beauty and the Beast",
+      "price": 500000,
+      "maxStock": 10,
+      "availableStock": 8,
+      "image": "https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841041409042?fmt=webp&qlt=70&wid=1680&hei=1680"
+    },
+    {
+      "id": 2,
+      "eventId": 1,
+      "name": "Belle Costume Jewelry Set for Kids – Beauty and the Beast",
+      "price": 200000,
+      "maxStock": 50,
+      "availableStock": 33,
+      "image": "https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2842056199043?fmt=webp&qlt=70&wid=1680&hei=1680"
+    },
+    {
+      "eventId": 3,
+      "name": "Donald Duck Glass",
+      "price": 120000,
+      "maxStock": 10,
+      "availableStock": 9,
+      "image": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698033575/px3l3qjhisg9jdti4qdt.webp",
+      "id": 3
+    },
+    {
+      "eventId": 3,
+      "name": "Daisy Duck Glass",
+      "price": 120000,
+      "maxStock": 10,
+      "availableStock": 9,
+      "image": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698033576/eo0oe6i3yldwk36d0yob.webp",
+      "id": 4
+    },
+    {
+      "eventId": 4,
+      "name": "Mickey Mouse and Friends Parade T-Shirt for Adults – Disneyland 2023",
+      "price": 200000,
+      "maxStock": 10,
+      "availableStock": 9,
+      "image": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698038571/cqnusnb2oes1qbvgfcrr.webp",
+      "id": 5
+    },
+    {
+      "eventId": 7,
+      "name": "Hocus Pocus 30th Anniversary Mystery Pin Blind Pack – 2-Pc. – Limited Release",
+      "price": 120000,
+      "maxStock": 100,
+      "availableStock": 100,
+      "image": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698040683/nyeceuchqfun5oiw8xzv.webp",
+      "id": 6
+    },
+    {
+      "eventId": 8,
+      "name": "Elsa Hair Play Doll – Frozen – 11 1/2''",
+      "price": 50000,
+      "maxStock": 100,
+      "availableStock": 99,
+      "image": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698081823/mvcrcgzhpy6xv0r5opat.webp",
+      "id": 7
+    },
+    {
+      "eventId": 9,
+      "name": "Mickey Mouse and Minnie Mouse Limited Edition Doll Set – Disney100 – 12''",
+      "price": 300000,
+      "maxStock": 100,
+      "availableStock": 100,
+      "image": "https://res.cloudinary.com/dewqus3ph/image/upload/v1698118293/hiosu4jjmu0bmvyle1mr.webp",
+      "id": 8
+    }
+  ],
+  "packages": [
+    {
+      "id": 1,
+      "eventId": 1,
+      "name": "REGULER (STANDING)",
+      "price": 1450000,
+      "maxQty": 35,
+      "availableTicket": 16
+    },
+    {
+      "id": 2,
+      "eventId": 1,
+      "name": "VIP (SEATING)",
+      "price": 2250000,
+      "maxQty": 75,
+      "availableTicket": 42
+    },
+    {
+      "id": 3,
+      "eventId": 1,
+      "name": "REGULAR B (STANDING)",
+      "price": 1950000,
+      "maxQty": 50,
+      "availableTicket": 43
+    },
+    {
+      "eventId": 3,
+      "name": "REGULER (DUDUK)",
+      "price": 120000,
+      "maxQty": 100,
+      "availableTicket": 99,
+      "id": 4
+    },
+    {
+      "eventId": 4,
+      "name": "REGULER",
+      "price": 120000,
+      "maxQty": 100,
+      "availableTicket": 98,
+      "id": 5
+    },
+    {
+      "eventId": 5,
+      "name": "REGULER (DUDUK)",
+      "price": 400000,
+      "maxQty": 50,
+      "availableTicket": 50,
+      "id": 6
+    },
+    {
+      "eventId": 6,
+      "name": "REGULER (DUDUK)",
+      "price": 300000,
+      "maxQty": 200,
+      "availableTicket": 200,
+      "id": 7
+    },
+    {
+      "eventId": 7,
+      "name": "REGULER (DUDUK)",
+      "price": 120000,
+      "maxQty": 100,
+      "availableTicket": 100,
+      "id": 8
+    },
+    {
+      "eventId": 8,
+      "name": "REGULER (DUDUK)",
+      "price": 120000,
+      "maxQty": 100,
+      "availableTicket": 98,
+      "id": 9
+    },
+    {
+      "eventId": 9,
+      "name": "REGULER",
+      "price": 300000,
+      "maxQty": 500,
+      "availableTicket": 500,
+      "id": 10
+    }
+  ],
+  "informations": [
+    {
+      "id": 1,
+      "eventId": 1,
+      "title": "Be Our Guest",
+      "description": "The heartwarming tale of Belle and the Beast swirls to life in this lush stage performance. With colorful costumes, gorgeous scenery and the songs you’ve come to love, this sumptuous show will sweep you away—all over again!"
+    },
+    {
+      "id": 2,
+      "eventId": 1,
+      "title": "Know Before You Go",
+      "description": [
+        "Check the Entertainment Schedule, the My Disney Experience app or the Times Guide at Disney's Hollywood Studios for schedule and showtimes, which are subject to change.",
+        "This outdoor show is subject to cancellation due to inclement weather. Shows may not occur daily and are subject to change."
+      ]
+    },
+    {
+      "eventId": 3,
+      "title": "Meet Dino Donald Duck",
+      "description": "Donald Duck just heard the news—some of his feathered ancestors were dinosaurs! To mark this inquackable discovery, he’s transformed this land into a celebration for the ages.\n\nJoin the festivities featuring some of Donald’s closest companions, including Daisy Duck. You can even catch Chip ‘n’ Dale sporting some nutty dino-inspired costumes.",
+      "id": 3
+    },
+    {
+      "eventId": 4,
+      "title": "Magic Marches Down the Street",
+      "description": "The unbridled enchantment and vivid pageantry of Fantasyland—and its many inhabitants—winds its way through the park in a thrilling parade spectacular. The dazzling mix of floats, motion and original music will keep you humming along for days to come.",
+      "id": 4
+    },
+    {
+      "eventId": 4,
+      "title": "See Disney Characters and Much More",
+      "description": "Be a part of this grand gala, with spectacular, state-of-the-art floats starring some of your favorite Disney Characters from Tangled, Peter Pan and The Little Mermaid. It’s a festival of fun for everyone!",
+      "id": 5
+    },
+    {
+      "eventId": 4,
+      "title": "Know Before You Go",
+      "description": "Be sure to check our Entertainment Schedule or the Times Guide at Magic Kingdom park for the performance schedule. This is an outdoor parade and subject to cancellation due to inclement weather. Showtimes are subject to change.",
+      "id": 6
+    },
+    {
+      "eventId": 5,
+      "title": "Holiday Fun Along Main Street, U.S.A.",
+      "description": "Delight in an entertaining display chock-full of good cheer.\n\nThe legendary street comes alive with yuletide spirit on select nights. Snap memorable photos of dancing gingerbread men, marching toy soldiers and beloved Disney Characters as they float by, waving hello. There’s even a special appearance by Santa Claus–riding in to wish everyone a Merry Christmas.\n\nMickey’s Once Upon a Christmastime Parade will be presented as part of Mickey’s Very Merry Christmas Party––offered select nights November 9 through December 22, 2023.",
+      "id": 7
+    },
+    {
+      "eventId": 5,
+      "title": "Know Before You Go",
+      "description": "• Separate admission for Mickey’s Very Merry Christmas Party is required.\n\n• All entertainment is subject to change without notice.",
+      "id": 8
+    },
+    {
+      "eventId": 6,
+      "title": "It’s a Spooktacular Procession",
+      "description": "Catch a glimpse of dastardly villains, ghastly ghouls and other iconic Characters as they float by during this spellbinding parade.\nTwice nightly, this beloved cavalcade brings forth an assortment of fiendishly fun floats, as each land of the Magic Kingdom park comes together to celebrate during Mickey’s Not-So-Scary Halloween Party—offered on select nights from August 11 through November 1, 2023.\n\nHighlights include:\n\nA flurry of favorite Disney friends, including Mickey Mouse, don Halloween costumes as they prepare to go trick-or-treat down Main Street, U.S.A.\nMinnie Mouse, Daisy Duck and Clarabelle Cow run amuck dressed as their favorite Halloween sisters—the Sandersons from Hocus Pocus\nHitchhiking Ghosts and the spectral Bride glide among the waltzing spirits—representing the Haunted Mansion from Liberty Square\nA wicked assortment of Disney Villains reign over a Fantastyland-inspired grand finale.",
+      "id": 9
+    },
+    {
+      "eventId": 6,
+      "title": "Know Before You Go",
+      "description": "Separate Mickey’s Not-So-Scary Halloween Party admission is required.\nAll entertainment is subject to change without notice.",
+      "id": 10
+    },
+    {
+      "eventId": 7,
+      "title": "It’s Fun to Be Bad",
+      "description": "The mischievous Sanderson Sisters from Hocus Pocus return in 2023 to throw a glorious Halloween party.\n\nWith only a few hours to run amuck, Winifred, Mary and Sarah decide to use their magic to host a decidedly wicked fun fest during Mickey’s Not-So-Scary Halloween Party—offered on select nights from August 11 through November 1, 2023.\n\nEnlisting the help of the Disney villains, the 3 sisters mix sinister shadows, terrifying nightmares and use the nefarious powers of their frightening colleagues to conjure the ultimate Hocus Pocus Party Potion—and cast a spell on everyone in Magic Kingdom park!\n\nLook for appearances from Dr. Facilier, Oogie Boogie and Maleficent. Combine them and other great Disney villains with amazing dancers, wild visual projections and otherworldly special effects to make Hocus Pocus Villain Spelltacular a not-to-be-missed Halloween treat!",
+      "id": 11
+    },
+    {
+      "eventId": 7,
+      "title": "Know Before You Go",
+      "description": "Separate Mickey’s Not-So-Scary Halloween Party admission is required.\nAll entertainment is subject to change without notice.",
+      "id": 12
+    },
+    {
+      "eventId": 8,
+      "title": "The Snow Must Go On",
+      "description": "Drift over to your seat in the theater and listen spellbound as the Royal Historians of Arendelle recount the frosty story of their enchanted kingdom. Watch as thrilling moments from the movie play on-screen, then cheer as Anna, Elsa and Kristoff appear to sing along with the audience! Projected lyrics make it easy to belt out irresistible show-stoppers like “Let It Go.”\n\nOther special surprises and magical touches make this show a real royal treat!",
+      "id": 13
+    },
+    {
+      "eventId": 9,
+      "title": "A Faire to Remember",
+      "description": "It takes a whole enchanted kingdom to put on this show—and you’re cordially invited. Look for Tiana and friends from The Princess and the Frog and Rapunzel and Flynn from Tangled. Mickey even recruits Olaf, Anna and Elsa from Frozen to join in!\n\nWatch as classic and contemporary Disney Characters interact in a magical, musical extravaganza featuring lively dancing, dazzling effects and music from the films.",
+      "id": 14
+    },
+    {
+      "eventId": 9,
+      "title": "Know Before You Go",
+      "description": "Be sure to check the Entertainment Schedule, the My Disney Experience app or the Times Guide at Magic Kingdom park for daily showtimes.\n\nThis outdoor show is subject to cancellation due to inclement weather. Performance times are subject to change.",
+      "id": 15
+    }
+  ],
+  "memberships": [
+    {
+      "id": 1,
+      "title": "Silver",
+      "description": "desc"
+    }
+  ]
+}
