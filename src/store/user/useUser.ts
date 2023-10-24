@@ -7,7 +7,7 @@ import { getCookie } from 'cookies-next';
 import jwt_decode from "jwt-decode";
 import { IEventsParams } from "@/service/event/eventServer";
 import { EventClient } from "@/service/event/eventClient";
-import { IOrderSummary } from "@/interfaces/event";
+import { IOrderSummary, IPackage } from "@/interfaces/event";
 import { MerchandiseClient } from "@/service/merchandise/merchandiseClient";
 import { PackageClient } from "@/service/package/packageClient";
 import { InformationClient } from "@/service/information/informationClient";
@@ -25,7 +25,7 @@ type State = {
     orderSummaryPrice:number
     topUpSuccessFully:boolean
     merchandisesByEventId :[]
-    packagesByEventId:[]
+    packagesByEventId:IPackage[]
     informationsByEventId:[]
     loadingGetListPayment : boolean
     loadingChangePage:boolean

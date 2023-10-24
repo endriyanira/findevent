@@ -14,7 +14,7 @@ import Button from '@/components/Button/Button';
 import OrderSummaryItem from '@/components/OrderSummaryItem/OrderSummaryItem';
 import Modal from '@/components/Modal/Modal';
 import { useUser } from '@/store/user/useUser';
-import { IEvent, IOrderSummary, MerchandiseOrderInfo, TicketOrderInfo } from '@/interfaces/event';
+import { IEvent, IOrderSummary, IPackage, MerchandiseOrderInfo, TicketOrderInfo } from '@/interfaces/event';
 import "react-toastify/dist/ReactToastify.css";
 import PaymentModal from '@/components/PaymentModal/PaymentModal';
 import TopUpModal from '@/components/TopUpModal/TopUpModal';
@@ -204,7 +204,7 @@ export default function EventDetail({
       }
     }
 
-    const handleCheckout = (e:any) =>{
+    const handleCheckout = (e:React.MouseEvent<HTMLButtonElement, MouseEvent> | any) =>{
       getUserDetails()
       if(orderSummaryMerchandises.length === 0 && !e.target.id){
         setShowConfirmationMerchandise(true)
@@ -384,7 +384,7 @@ export default function EventDetail({
                               {packagesByEventId.length !== 0 && 
                                 <div className='EventPriceWrapper h-full flex-col items-end justify-end'>
                                     <p className='EventPriceStartFromText text-[12px] text-secondary text-right md:text-[24px]'>Start from</p>
-                                    <p className='EventPriceText text-red-500 text-[16px] font-bold md:text-[36px]'>{Utils.convertPrice(packagesByEventId[0].price as number)}</p>
+                                    <p className='EventPriceText text-red-500 text-[16px] font-bold md:text-[36px]'>{Utils.convertPrice(packagesByEventId !== undefined ? packagesByEventId[0].price as number : 0)}</p>
                                 </div>
                               }
                             </div>
@@ -416,7 +416,7 @@ export default function EventDetail({
                         {/* ticket packages */}
                         {activeTab === "Ticket" && 
                           <div className='EventDetailTabListItemWrapper py-5'>
-                            {packagesByEventId.map((ticket : TicketOrderInfo ) => 
+                            {packagesByEventId.map((ticket : any ) => 
                               <TicketItemCard 
                                 key={ticket.name} 
                                 ticket={ticket} 

@@ -101,7 +101,7 @@ const History = () => {
 
                 {activeTab === "My Tickets" &&
                     <div className='flex flex-col w-full pt-2 rounded-md mb-4'>
-                        {userEventData.map((userEvent)=>
+                        {userEventData.map((userEvent :any)=>
                         <div key={`key:${userEvent.id} bg-lightBlue p-2 flex flex-row gap-3 border-b-[1px] border-lightBlue rounded-md hover:shadow-TicketCardSmall mb-4`}>
                             <div  className='bg-lightBlue p-2 flex flex-row gap-3 border-b-[1px] border-lightBlue rounded-md hover:shadow-TicketCardSmall mb-4'>
                                 <div>

@@ -25,8 +25,9 @@ const Events = () => {
       method: "GET",
       url: url,
     });
+    const headers : any = response.headers
 
-    setTotalPage(Math.ceil(response.headers["x-total-count"] / 5))
+    setTotalPage(Math.ceil(headers.get('x-total-count') / 5))
 
     if (response.data.length <= 5 && (pageIndex === totalPage)) {
       setIsMaxData(true);
