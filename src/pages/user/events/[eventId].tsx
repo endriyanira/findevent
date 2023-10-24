@@ -381,10 +381,12 @@ export default function EventDetail({
                                       </div>
                                   </div>
                               </div>
-                              <div className='EventPriceWrapper h-full flex-col items-end justify-end'>
-                                  <p className='EventPriceStartFromText text-[12px] text-secondary text-right md:text-[24px]'>Start from</p>
-                                  <p className='EventPriceText text-red-500 text-[16px] font-bold md:text-[36px]'>{Utils.convertPrice(packagesByEventId[0]?.price! as number)}</p>
-                              </div>
+                              {packagesByEventId.length !== 0 && 
+                                <div className='EventPriceWrapper h-full flex-col items-end justify-end'>
+                                    <p className='EventPriceStartFromText text-[12px] text-secondary text-right md:text-[24px]'>Start from</p>
+                                    <p className='EventPriceText text-red-500 text-[16px] font-bold md:text-[36px]'>{Utils.convertPrice(packagesByEventId[0].price as number)}</p>
+                                </div>
+                              }
                             </div>
                         </div>
                       </div>
