@@ -20,11 +20,13 @@ import { Utils } from "@/utils";
 const SignUp = () => {
   const router = useRouter();
   const id = Utils.generateUUID()
-  const [signUpData, setLoginData] = useState({ 
+  const [signUpData, setSignUpData] = useState({ 
     email: "", 
     password: "", 
     firstName:"",
     lastName:"",
+    membership:"Basic",
+    balance:0
   });
 
   const notify = (message: ToastContent, type: TypeOptions) => {
@@ -38,7 +40,7 @@ const SignUp = () => {
     e: React.ChangeEvent<HTMLInputElement>,
     key: string
   ) => {
-    setLoginData({ ...signUpData, [key]: e.target.value });
+    setSignUpData({ ...signUpData, [key]: e.target.value });
   };
 
   const handleSubmitSignUp = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -112,7 +114,7 @@ const SignUp = () => {
             validation="Please enter a valid email address"
           />
           <Input
-            type="text"
+            type="password"
             id="password"
             label="password"
             value={signUpData.password}
